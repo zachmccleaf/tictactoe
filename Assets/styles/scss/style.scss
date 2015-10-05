@@ -1,0 +1,40 @@
+﻿.gameboard {
+    width: 100%; 
+    margin: 66px auto; 
+
+    &__quad {
+        width: 33%; 
+        border: 2px solid black; 
+        height: 322px; 
+        float: left; 
+
+        &.-left-upper, 
+        &.-center-upper, 
+        &.-right-upper {
+            border-top: none; 
+        }
+
+        &.-left-center, 
+        &.-left-upper, 
+        &.-left-lower {
+            border-left: none; 
+        }
+
+        &.-left-lower, 
+        &.-center-lower, 
+        &.-right-lower {
+            border-bottom: none; 
+        }
+
+        &.-right-center, 
+        &.-right-upper, 
+        &.-right-lower {
+            border-right: none; 
+        }
+    }
+}
+
+footer {
+    display: block; 
+    width: 100%; 
+}

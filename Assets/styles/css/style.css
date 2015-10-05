@@ -1,0 +1,22 @@
+.gameboard {
+  width: 100%;
+  margin: 66px auto; }
+  .gameboard__quad {
+    width: 33%;
+    border: 2px solid black;
+    height: 322px;
+    float: left; }
+    .gameboard__quad.-left-upper, .gameboard__quad.-center-upper, .gameboard__quad.-right-upper {
+      border-top: none; }
+    .gameboard__quad.-left-center, .gameboard__quad.-left-upper, .gameboard__quad.-left-lower {
+      border-left: none; }
+    .gameboard__quad.-left-lower, .gameboard__quad.-center-lower, .gameboard__quad.-right-lower {
+      border-bottom: none; }
+    .gameboard__quad.-right-center, .gameboard__quad.-right-upper, .gameboard__quad.-right-lower {
+      border-right: none; }
+
+footer {
+  display: block;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
